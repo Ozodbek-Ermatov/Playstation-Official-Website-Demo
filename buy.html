@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="buy"> 
+    <div class="navbar">
+        <a href="./index.html"><i class="fa-brands fa-playstation"></i></i></a>
+        <h2><a href="./store.html">Games</a></a></h2>
+        <h2><a href="./mac.html">PlayStation 5</a></h2>
+        <h2><a href="./ipad.html">PlayStation 4</a></h2>
+        <h2><a href="./accessories.html">Accessories</a></h2>
+        <h2><a href="./buy.html">Store</a></h2>
+    </div>
+    <br>
+    <br>
+    
+
+    <div class="center">
+        <table class="hover-effect" border="3" style="text-align: center;">
+            <tr>
+                <th>No</th>
+                <th>O'yin Konsoli</th>
+                <th>O'yin Konsoli Rasmi</th>
+                <th>Eski Narxi</th>
+                <th>Yangi Narxi</th>
+                <th>Sotib olish</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>PlayStation 5</td>
+                <td><img src="p1.png" alt="Rasm 1" width="100px" height="100px" class="small-img"></td>
+                <td><del>499$</del></td>
+                <td>399$</td>
+                <td><a href=""><i class="fa-solid fa-cart-shopping"></i></a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>PlayStation 4</td>
+                <td><img src="p3.jpg" alt="Rasm 2" width="100px" height="100px" class="small-img"></td>
+                <td><del>389$</del></td>
+                <td>300$</td>
+                <td><a href=""><i class="fa-solid fa-cart-shopping"></i></a></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>PlayStation VR2</td>
+                <td><img src="p4.jpg" alt="Rasm 1" width="100px" height="100px" class="small-img"></td>
+                <td><del>486$</del></td>
+                <td>400$</td>
+                <td><a href=""><i class="fa-solid fa-cart-shopping"></i></a></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Sony Inzone H9 Headphone</td>
+                <td><img src="p6.jpg" alt="Rasm 2" width="100px" height="100px" class="small-img"></td>
+                <td><del>450$</del></td>
+                <td>370$</td>
+                <td><a href=""><i class="fa-solid fa-cart-shopping"></i></a></td>
+            </tr>
+        </table>
+    </div>
+
+    <style>
+        body{
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(120deg, #b60dad, #c4f70c);
+            padding: 50px;
+        }
+        .center{
+            margin-left: 200px;
+        }
+        table {
+            width: 70%;
+            border-collapse: collapse;
+            background-color: grey; /* Jadval fonini oq qilish */
+            border: 1px solid black; /* Jadvalning umumiy chegarasi */
+        }
+        h1:hover{
+            text-align: center;
+            margin-right: 110px;
+            color: #ecc695;
+            
+        }
+        h1{
+            text-align: center;
+            margin-right: 110px;
+        }
+        .small-img {
+            width: 100px;
+            height: 100px;
+            transition: transform 0.3s ease;
+            transition: 1s;
+        }
+
+        .small-img:hover {
+            transform: scale(2.1); 
+        }
+        .hover-effect td {
+            transition: background-color 0.3s ease;
+        }
+
+        .hover-effect td:hover {
+            background: linear-gradient(to right, yellow, orange);
+            background-color: rgb(134, 215, 247); 
+        }
+        .center i{
+            background-color: none;
+            font-size: 30px;
+        }
+    </style>
+
+</body>
+</html>
